@@ -1,0 +1,14 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: chartreuse;
+    margin: auto;
+    transition: 1s;
+
+}
+
+.box:hover{
+    
+    transform: scale(2)
+    
+}

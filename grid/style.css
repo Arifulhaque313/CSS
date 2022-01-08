@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+    margin: 100px auto;
+    border: 1px solid #ddd;
+    color: white;
+    display: grid;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-gap: 10px;
+}
+  
+
+.div1{
+    background-color: rgb(221, 0, 136);
+ 
+
+}
+.div2{
+    background-color: green;
+
+}
+.div3{
+    background-color: blue;
+
+
+}
+.div4{
+    background-color: rgb(90, 12, 90);
+}
+
+.div5{
+    background-color: yellow;
+}
+.div6{
+    background-color: black;
+    
+}
+
+.div7{
+    background-color: cornflowerblue;
+}
