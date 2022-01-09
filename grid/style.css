@@ -14,13 +14,14 @@ main{
     color: white;
     display: grid;
     grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,1fr) 150px;
     grid-gap: 10px;
 }
   
 
 .div1{
     background-color: rgb(221, 0, 136);
- 
+    grid-column: 1/-1;
 
 }
 .div2{
@@ -38,12 +39,16 @@ main{
 
 .div5{
     background-color: yellow;
+    grid-column: 1/4;
 }
 .div6{
     background-color: black;
+    grid-column: 4/5;
+    grid-row: 2/4;
     
 }
 
 .div7{
     background-color: cornflowerblue;
+    grid-column: 1/-1;
 }
