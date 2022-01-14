@@ -1,15 +1,37 @@
-.box{
+.field{
     height: 400px;
-    width: 400px;
-    background-color: orange;
-    margin: auto;
-    transition: all .5s linear;
+    border: 1px solid black;
 }
 
-.box:hover{
-    width: 200px;
-    height: 200px;
+.bat{
+    height: 400px;
+    padding-left: 100px;
+    transform: rotate(30deg);
+    
+    
+
+}
+
+.field:hover .bat{
+    transform: rotate(-30deg);
+    transform-origin: left;
+    transition: 1s;
+}
+
+.ball{
+    height: 78px;
+    width: 80px;
+    background-color: red;
     border-radius: 50%;
-    transform: rotate(180deg);
-    background-color: rgb(255, 51, 0);
+    position: relative;
+    left: 70px;
+    top:-83px
+
+}
+
+.field:hover .ball{
+    transform: translateX(400px);
+    transition: 1s;
+    transition-delay: .1s;
+    
 }
